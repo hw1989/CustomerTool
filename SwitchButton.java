@@ -126,7 +126,7 @@ public class SwitchButton extends View {
 		    @Override  
 		    public void onAnimationUpdate(ValueAnimator animation) {  
 		        float currentValue = (Float) (animation.getAnimatedValue());  
-		        Log.d("TAG", "cuurent value is " + currentValue);  
+		        Log.d("TAG", "current value is " + currentValue);  
 		    }  
 		});  
 		anim.start();
